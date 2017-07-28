@@ -80,4 +80,26 @@ nav{
 	}
 }
 
-
+.section_five{
+	background: url('../imagen/bg2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20%;
+	color: white;
+	.content_section-five{
+		.form{
+			display:flex;
+			padding: 30px 180px;
+			input[type=text]:not(.browser-default){
+				background-color: white;
+				padding: 0 10px;
+			}
+			i{
+				background-color: #01DFA5;
+				width: 70px;
+				height: 45px;
+				padding-top: 5px;
+			}
+		}
+	}
+}
