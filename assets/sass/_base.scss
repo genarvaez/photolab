@@ -34,12 +34,12 @@ nav{
 	}
 
 }
-.section_two{
+.section_two, .section_three{
 	background: url('../imagen/hand.png');
 	background-size: 50%;
 	background-position: 70% 0;
 	background-repeat: no-repeat;
-	.content_section-two{
+	.content_section-two, .content_section-three{
 		padding: 80px;
 		color: #01DFA5;
 		h5{
@@ -57,6 +57,11 @@ nav{
 			width: 200px;
 		}
 	}
+}
+.section_three{
+	background: url('../imagen/phone.png');
+	background-position: left top;
+	background-repeat: no-repeat;
 }
 
 
