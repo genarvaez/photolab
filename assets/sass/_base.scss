@@ -103,3 +103,29 @@ nav{
 		}
 	}
 }
+.section_six{
+	padding: 50px;
+	background-color: #E6E6E6;
+	p{
+		padding: 0 120px 50px 120px;
+	}
+	button{
+		@include boton;
+		width: 200px;
+		font-size: 1.5em;
+	}
+}
+footer{
+	background-color: white;
+	padding: 20px 50px;
+	.links-footer{
+		margin: 10px 0;
+		ul{
+			li{
+				display: inline-block;
+				border-right: 2px solid #01DFA5;
+				padding: 0 10px 0 0;
+			}
+		}
+	}
+}
