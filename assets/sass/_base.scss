@@ -63,5 +63,21 @@ nav{
 	background-position: left top;
 	background-repeat: no-repeat;
 }
+.section_four{
+	background: #E6E6E6;
+	padding: 80px 0;
+	.content_section-four{
+		padding: 20px;
+
+		h6{
+			margin-top: 40px;
+		}
+		p{
+			padding: 30px 80px;
+			font-size: .7em;
+			color: 	#A4A4A4;
+		}
+	}
+}
 
 
